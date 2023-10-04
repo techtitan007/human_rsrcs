@@ -1,0 +1,6 @@
+<!-- update_employee.html -->
+<form method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit">Update Employee</button>
+</form>
